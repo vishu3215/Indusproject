@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>resume using HTML </title>
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+        .navbar {
+            display: inline-block;
+            box-sizing: border-box;
+            border: 4px solid red;
+            width: 40.9%;
+            background-color: #ededed80;
+            position: fixed;
+            margin-left: 4px;
+            margin-top: 4px;
+            padding: 10px;
+            color: whitesmoke;
+            background-color: rgb(15, 24, 19);
+        }
+        .image {
+            box-sizing: border-box;
+            margin-left: 170px;
+            margin-bottom: 50px;
+            border: 2px solid whitesmoke;
+            display: inline-block;
+        }
+        .social,
+        .about h3 {
+            color: aqua;
+        }
+        .main {
+            box-sizing: border-box;
+            /* display: inline-block; */
+            border: 4px solid #ee0606;
+            float: right;
+            width: 58%;
+            margin-top: 4px;
+            background-color: rgb(14, 24, 21);
+            color: rgb(248, 231, 210);
+        }
+        .name {
+            display: inline-block;
+            position: relative;
+            left: 10px;
+            font-size: x-large;
+            display: inline-block;
+            width: 300px;
+            position: relative;
+            top: 40px;
+        }
+        .title {
+            box-sizing: border-box;
+            margin-top: -10px;
+            position: relative;
+            top: 30px;
+            left: 12px;
+        }
+        .info {
+            position: relative;
+            left: 24rem;
+            top: -50px;
+        }
+        .wrktitle {
+            text-align: center;
+        }
+        .workexp {
+            /* border: 2px solid red; */
+            position: relative;
+            top: -8px;
+            display: inline-block;
+            width: 35%;
+            margin-left: 10px;
+            padding: 10px;
+        }
+        .workexp1,
+        .workexp2,
+        .workexp3 {
+            border: 2px solid black;
+            line-height: 2px;
+            margin: 10px;
+            padding: 16px;
+        }
+        .details {
+            display: inline-block;
+            width: 55%;
+            /* border: 2px solid red; */
+        }
+        .detail1,
+        .detail2,
+        .detail3 {
+            border: 2px solid black;
+            font-size: small;
+            margin: 10px;
+            padding: 10px;
+
+        }
+        .edu1 {
+            border-right: 2px solid black;
+            border-bottom: 2px solid black;
+            border-top: 2px solid black;
+            line-height: 2px;
+            margin: 10px;
+            padding: 10px;
+            width: 30%;
+            position: relative;
+            left: 400px;
+            top: -125px;
+            text-align: center;
+        }
+        .edu2 {
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            border-bottom: 2px solid black;
+            line-height: 2px;
+            margin: 10px;
+            padding: 10px;
+            width: 30%;
+            position: relative;
+            top: -120px;
+            left: 230px;
+            text-align: center;
+        }
+        .edu3 {
+            border-left: 2px solid black;
+            border-bottom: 2px solid black;
+            border-top: 2px solid black;
+            line-height: 2px;
+            margin: 10px;
+            padding: 10px;
+            width: 30%;
+            text-align: center;
+            position: relative;
+            left: 55px;
+            top: 5px;
+        }
+        .education {
+            /* border: 2px solid red; */
+            position: relative;
+            top: -8px;
+            display: inline-block;
+            width: 90%;
+            margin-left: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="image">
+            <img src="respic.jpg" alt="error loading" height="150px" width="120px">
+        </div>
+        <div class="about">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quis cum
+                sequi minima id alias dignissimos saepe. Maiores amet, porro doloribus molestias reprehenderit sit
+                aliquam, unde fugiat ea illum assumenda velit soluta et ipsum. Porro obcaecati vel sequi sint nam
+                adipisci ex odio eius dolorem! Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                sapiente aperiam, aspernatur quam eaque porro nam distinctio illum debitis eveniet repellat inventore
+                dicta velit culpa sequi cumque magni reprehenderit cupiditate doloribus rem? Modi, iure provident.
+            </p>
+        </div>
+        <hr>
+        <div class="social">
+            <h3>Website & Social Links</h3>
+            Facebook:
+            <a href="facebook.com">VishuSingh</a><br>
+            Linkedin:
+            <a href="linkedin.com">VkSingh</a><br>
+            Instagram:
+            <a href="instagram.com">v.for.vi.shu</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="heading">
+            <h2 class="name">Vishvjeet Kumar Singh
+            </h2>
+            <h5 class="title">( Graphic Designer )</h5>
+        </div>
+        <div class="info">
+            <ul>
+                <li>8837777635,8797146335</li>
+                <li>H.No-986,Shivalik City</li>
+                <li> info@vishusingh.com </li>
+            </ul>
+        </div>
+        <hr>
+        <h2 class="wrktitle">WORK EXPERIENCE</h2>
+        <div class="workexp">
+            <div class="workexp1">
+                <p><b>AASHRAYA</b></p>
+                <p>WFH</p>
+                <p>2020-2022</p>
+            </div>
+            <div class="workexp2">
+                <p><b>Mataangi Builders</b></p>
+                <p>WFH</p>
+                <p>2021-2022</p>
+            </div>
+            <div class="workexp3">
+                <p><b>Homeflic Wegrow</b></p>
+                <p>WFH</p>
+                <p>2020-2022</p>
+            </div>
+        </div>
+        <div class="details">
+            <div class="detail1">
+                <p><b>GRAPHIC DESIGNING</b></p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nobis dolores vitae? Iure, sapiente
+                    ipsa.</P>
+            </div>
+            <div class="detail2">
+                <p><b>MANAGEMENT TRAINEE</b></p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nobis dolores vitae? Iure, sapiente
+                    ipsa.</P>
+            </div>
+            <div class="detail3">
+                <p><b>MARKET RESEARCH</b></p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nobis dolores vitae? Iure, sapiente
+                    ipsa.</P>
+            </div>
+        </div>
+        <hr>
+        <h2 class="wrktitle">EDUCATION</h2>
+        <div class="education">
+            <div class="edu3">
+                <p> <b>Chandigarh University</b></p>
+                <p> <b> [CU]</b></p>
+                <p>Graduation</p>
+                <p>2020-2023</p>
+                <hr>
+            </div>
+            <div class="edu1">
+                <p><b> Sankalp Academy </b> </p>
+                <p><b> School</b></p>
+                <p>12th class</p>
+                <p>2019-2020</p>
+                <hr>
+            </div>
+            <div class="edu2">
+                <p> <b> Army Public School</b></p>
+                <p>10th class</p>
+                <p>2017-2018</p>
+                <hr>
+            </div>
+            <hr>
+        </div>
+</body>
+</html>
